@@ -4,8 +4,8 @@ import org.junit.Assert;
 
 public class SphereCalcutareTest {
     @Test
-    public void testCreateObject() throws Exception{
-        SphereCalculate sphereCalculate = new SphereCalculate();
+    public void testCreateObjectWithParameter() throws Exception{
+        SphereCalculate sphereCalculate = new SphereCalculate(4.5);
         Assert.assertNotNull(sphereCalculate);
     }
 }
