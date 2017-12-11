@@ -8,4 +8,21 @@ public class SphereCalcutareTest {
         SphereCalculate sphereCalculate = new SphereCalculate(4.5);
         Assert.assertNotNull(sphereCalculate);
     }
+
+    @Test
+    public void testCalculateArea()
+    {
+        SphereCalculate sphereCalculate = new SphereCalculate(4.5);
+        Assert.assertNotNull(sphereCalculate);
+        Assert.assertEquals(254.34, sphereCalculate.calculateArea());
+
+    }
+
+    @Test
+    public void testCalculateVolume()
+    {
+        SphereCalculate sphereCalculate = new SphereCalculate(4.5);
+        Assert.assertNotNull(sphereCalculate);
+        Assert.assertEquals(413.1, sphereCalculate.calculateVolume());
+    }
 }
