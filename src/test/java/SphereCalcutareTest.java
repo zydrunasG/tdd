@@ -14,7 +14,7 @@ public class SphereCalcutareTest {
     {
         SphereCalculate sphereCalculate = new SphereCalculate(4.5);
         Assert.assertNotNull(sphereCalculate);
-        Assert.assertEquals(254.34, sphereCalculate.calculateArea());
+        Assert.assertEquals(254.34, sphereCalculate.calculateArea(),0);
 
     }
 
@@ -23,6 +23,6 @@ public class SphereCalcutareTest {
     {
         SphereCalculate sphereCalculate = new SphereCalculate(4.5);
         Assert.assertNotNull(sphereCalculate);
-        Assert.assertEquals(413.1, sphereCalculate.calculateVolume());
+        Assert.assertEquals(381.51, sphereCalculate.calculateVolume(), 0);
     }
 }
