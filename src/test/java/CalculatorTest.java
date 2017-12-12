@@ -42,5 +42,11 @@ public class CalculatorTest {
         Assert.assertEquals(2, calculator.calculateDivision(), 0);
     }
 
+    @Test void testFindBiggestNumber()
+    {
+        Assert.assertEquals(10, calculator.findBiggestNumber(),0);
+    }
+
+
 
 }
