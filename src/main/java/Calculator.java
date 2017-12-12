@@ -23,4 +23,9 @@ public class Calculator {
     public double calculateDivision() {
         return a/b;
     }
+
+    public double findBiggestNumber() {
+        if(a>b) return a;
+        else return b;
+    }
 }
