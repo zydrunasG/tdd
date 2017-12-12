@@ -33,7 +33,7 @@ public class CalculatorTest {
     @Test
     public void testCalculateMultiply()
     {
-        Assert.assertEquals(150,calculator.calculateMultiply(), 0);
+        Assert.assertEquals(50,calculator.calculateMultiply(), 0);
     }
 
     @Test
